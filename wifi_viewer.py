@@ -1,3 +1,5 @@
+WIFI NAME YOUR SYSTEM SAVED DEVICE AND PASSWORD.
+
 import subprocess
 print("Wi-Fi Password Viewer")
 profiles = subprocess.check_output(['netsh', 'wlan', 'show', 'profiles'], shell=True,text=True)
